@@ -1,0 +1,97 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,700);
+html {
+    background: url('http://upload.wikimedia.org/wikipedia/en/thumb/8/80/Wikipedia-logo-v2.svg/1122px-Wikipedia-logo-v2.svg.png');
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+    text-align: center;
+    margin: 0;
+}
+
+h1 {
+    color: black;
+    padding-left: 40px;
+}
+
+
+/* search bar */
+
+input {
+    width: 400px;
+    background-color: white;
+    border: 2px outset grey;
+    border-radius: 10px;
+    padding: 15px;
+    padding-left: 55px;
+    font-size: 1.85em;
+    box-shadow: 5px 5px 1px #000;
+}
+
+input:focus {
+    outline: none;
+}
+
+.fa-search-plus.fa-2x {
+    position: relative;
+    left: 50px;
+}
+
+.num_results {
+    color: black;
+    font-weight: bold;
+    padding: 5px;
+    padding-left: 14px;
+    font-size: 1.1em;
+}
+
+#results_pane {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.result_card {
+    background: #bdbdbd;
+    color: #004c75;
+    border: 1px solid #000;
+    margin: 30px;
+    padding: 5px 35px;
+    text-align: left;
+    border-radius: 2%;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.7);
+}
+
+.result_card:hover {
+    background: #e9e9e9;
+}
+
+.result_card:last-of-type {
+    margin-bottom: 3em;
+}
+
+.result_card h1 {
+    margin: 0;
+}
+
+.result_card a {
+    text-decoration: none;
+    color: black;
+}
+
+.result_card p {
+    margin-top: 0.5em;
+    text-indent: 1.5em;
+    line-height: 1.5em;
+}
+
+#footer {
+    position: fixed;
+    background-color: #aaa;
+    border-top: 2px solid black;
+    width: 100%;
+    bottom: 0px;
+    font-size: 62.5%;
+}
